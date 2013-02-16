@@ -5,4 +5,5 @@
 # Default path will just redirect to the computer list
 GET     /                           controllers.Application.index
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
+GET     /v1.0/event/list            controllers.EventsController.index
 
